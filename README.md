@@ -7,7 +7,18 @@ When creating a project it is important to think about organization of your code
 ### 📚 User Stories
 
 - As a user, I can see a three by three grid game board on the page.
+Pseudocode:
+1. Added grid-template-columns and grid-template-rows, then defined the key value pairs
+2. Changed display to grid
+3. Justified position to center
+4. Removed unneeded question marks in the array
+
 - As a user, I can click on a square to mark it.
+Pseudocode:
+1. Create one variable as an object for, player #1 and player #2
+2. Player #1 = ❌ and Player #2 = ⭕️
+3. Added buttons for all squares to click
+4. 
 - As a user, my partner can click on a square after me and see their mark.
 - As a user, I can't click on a square that has already been marked.
 - As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally) I can see a notice telling me which player won.
@@ -33,3 +44,13 @@ When creating a project it is important to think about organization of your code
 
 - [Tic Tac Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
 - [Tic Tac Toe win condition in React](https://forum.freecodecamp.org/t/need-help-understanding-react-tic-tac-toe-winner-function/137840)
+
+
+const handleGamePlay = (index) => {}
+
+ {squares.map((value, index) => {
+
+ value={value}
+            key={index}
+            index={index}
+            handleGamePlay={handleGamePlay}
