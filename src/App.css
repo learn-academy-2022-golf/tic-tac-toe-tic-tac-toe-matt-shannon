@@ -3,3 +3,27 @@
   width: 100px;
   border: 2px solid black;
 }
+
+.gameboard {
+  display:grid;
+  /* flex-wrap: wrap; */
+  /* width: 620px; */
+  /* margin: auto; */
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  /* justify-content: center; * */
+  text-align:center;
+  margin:auto;
+}
+
+.board-row {
+  display:flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
